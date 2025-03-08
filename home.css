@@ -1,0 +1,119 @@
+body{
+    background: url(green.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-size: 50px;
+    margin: 60px 0px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+    color: green;
+}
+
+i{
+    color: green;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+
+.card1,.card2,.card3{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background: #065d12;
+    font-family: "Fauna One", serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.card1:hover,.card2:hover,.card3:hover{
+    height: 310px;
+    width: 210px;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.carda,.cardb,.cardc{
+    height: 240px;
+    width: 200px;
+    border-radius: 10px;
+    background: #065d12;
+    text-align: center;
+    font-family: "Fauna One", serif;
+    font-size: 28px;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+img{
+    width: 175px;
+    height: 220px;
+    margin: 10px 12px;
+    border-radius: 10px;
+}
+
+/* Combine the common styles for the icons */
+.carda i, .cardb i, .cardc i {
+    color: white;
+    font-size: 50px;
+    margin: 25px 70px;
+    margin-bottom: 35px;
+}
+
+.carda:hover,.cardb:hover,.cardc:hover{
+    height: 255px;
+    width: 215px;
+}
+
+h2{
+    font-size: 45px;
+    margin: 60px 0px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+    color: green;
+}
+
+a button{
+    font-family: "Fauna One", serif;
+    color: white;
+    padding: 20px;
+    font-size: 30px; 
+    margin-top: 30px;
+    margin-left: 40%;
+    background: green;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+a button:hover{
+    background: rgb(1, 177, 1);
+}
